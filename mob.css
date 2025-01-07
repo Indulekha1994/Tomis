@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header style*/
+header{
+    background-color: #6883db;
+    height: 80px;
+    position: sticky;
+    top: 0;  
+}
+header h1{
+    margin-left: 100px;
+    color: whitesmoke;
+    font-size: 44px;
+    letter-spacing: 3px; 
+}
+#hero{
+    background-color:whitesmoke;
+    height: 430px;
+}
+.hero-image{
+    width: 500px;
+    height: 100px;
+    margin-top: 8px;  
+    margin-left: 500px;  
+}
+nav ul{
+    display: flex;  
+    font-family: "dancing script",serif;
+    font-size: 20px;
+    list-style: none;
+}
+nav ul li a{ 
+    margin-left: 60px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.social-icons{
+    margin-left: 1400px;
+    margin-top: -10px;
+   font-size: 18px;
+}
+.social-icons i{
+    margin-left: 20px;
+    color: #dee0eb;
+}
+nav ul li a:hover{
+    color: #23e5f3;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 900px;
+}
+nav{
+    position: absolute; 
+    margin-top: -10px;
+}
+/* header ends*/
+#mob{
+    background-color: #6883db;
+    height: 800px;
+    margin-top: 0;
+}
+.tom{
+    text-align: center;
+
+    font-size: 30px; 
+    color: rgb(208, 218, 238);
+    font-family: "dancing script",serif;  
+}
+.pro{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.card{
+    height: 300px;
+    width: 250px;
+    
+    margin-top: 20px;
+    border: 1px solid rgb(128, 130, 241);
+    margin-left: 50px;
+    background-color: aliceblue;
+}
+.card-title{
+    text-align: center;
+    color: #6883db;
+    font-family: "oswald",serif;
+}
+/*form*/
+#contact{
+    height: 500px;
+   margin-left: 400px; 
+background-image: url(form.png) ;
+background-repeat: no-repeat;
+
+}
+input{
+width: 500px;
+height: 40px;
+border-radius: 8px;
+margin-left:  700px; ;
+}
+.form h2{
+    margin-left: 850px;
+    font-size: 30px;
+    color: #6883db;
+    font-family: "dancing script",serif;
+}
+.form label{
+    margin-left: 700px;
+    color: #6883db;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+    border-radius: 8px;
+    margin-left: 700px;
+}
+button{
+    margin-left: 700px;
+    background-color: #6883db;
+    color: whitesmoke;
+    border-radius: 8px;
+    height: 40px;
+    width: 500px;
+}
+
+/*footer*/
+#ff{
+    background-color:#6883db;
+    height: 100px;
+}
+.foot{
+    text-align: center;
+    margin-top: 30px;
+    color: whitesmoke;
+    font-family: "dancing script",serif;
+    font-size: 20px;
+}
+
+/*responsive*/
+@media (max-width: 600px) {
+
+    .hero-image{
+        width: 200px;
+        height: 100px;
+        margin-top: 8px;  
+        margin-left: 50px;  
+    }
+    header h1{
+        margin-left: 100px; 
+        color: whitesmoke;
+        font-size: 30px;
+        letter-spacing: 3px; 
+    }
+    .social-icons{
+        margin-left: 300px;
+        margin-top: 20px;
+       font-size: 18px;
+    }
+    nav ul li a{
+        margin-top: 20px;
+        margin-left: 20px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    nav ul li a:hover{
+        color: #23e5f3;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+    }
+    nav{
+        position: absolute; 
+        margin-top: -10px;
+    }
+    #mob{
+        background-color: #6883db;
+        height: 2600px;
+        margin-top: 0;
+    }
+    .pro{
+        display: flex;
+       flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .card{
+        height: 280px;
+        width: 250px;   
+        margin-top: 20px;
+        border: 1px solid rgb(128, 130, 241);
+        margin-left: 50px;
+        background-color: aliceblue;
+}
+    #contact{
+        height: 500px;
+       margin-left: 100px; 
+    background-image: url(form.png) ;
+    background-repeat: no-repeat;
+    
+    }
+    input{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 5px; ;
+    }
+    .form h2{
+        margin-left: 15px;
+        font-size: 30px;
+        color: #6883db;
+        font-family: "dancing script",serif;
+    }
+    .form label{
+        margin-left: 5px; 
+        color: #6883db;
+    }
+    textarea{
+        width: 400px;
+        height: 100px;
+        border-radius: 8px;
+        margin-left:5px;
+    }
+    button{
+        margin-left: 5px;
+        background-color: #6883db;
+        color: whitesmoke;    
+        border-radius: 8px;
+        height: 40px;
+        width: 400px;
+    }
+    #ff{
+        background-color:#6883db;
+        height: 100px;
+    }
+    .foot{
+        text-align: center;
+        margin-top: 30px;
+        color: whitesmoke;
+        font-family: "dancing script",serif;
+        font-size: 20px;
+    }
+}
